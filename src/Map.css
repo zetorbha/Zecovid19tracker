@@ -1,0 +1,34 @@
+.map{
+    height:500px;
+    background-color: rgb(238, 215, 207);
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top:16px;
+    box-shadow: 0 0 8px -4px rgb(0,0,0, 0.5);
+}
+
+.map .leaflet-container{
+    height:100%;
+}
+.pop-cintainer{
+    width: 150px;
+}
+.pop-flag{
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+.pop-flag img{
+    width: 100px;
+    border-radius: 5px;
+}
+.pop-name{
+   font-size: 20px;
+   font-weight: bold;
+   color: brown;
+} 
+.pop-cases, .pop-recoverd, .pop-deaths{
+    font-size: 16px;
+    margin-top: 5px;
+}
