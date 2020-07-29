@@ -14,3 +14,7 @@
 .table tr:nth-of-type(odd){
     background-color: #f8ecec;
 }
+.table img{
+width: 32px;
+height: 22px;
+}
