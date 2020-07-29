@@ -76,9 +76,9 @@ function App() {
         </FormControl>
       </div>
       <div className="app__state">
-        <Infobox isOrenge onClick={e=> setCasetype('cases')}  active={casetype==="cases"}title="Cases" cases={printPlus(selectedCountryInfo.todayCases)} total= {printPlus(selectedCountryInfo.cases)}/>
-        <Infobox  onClick={e=> setCasetype('recovered')}active={casetype==="recovered"} title="Recoverd" cases={printPlus(selectedCountryInfo.todayRecovered)} total= {printPlus(selectedCountryInfo.recovered)}/>
-        <Infobox isRed onClick={e=> setCasetype('deaths')} active={casetype==="deaths"}title="Deaths" cases={printPlus(selectedCountryInfo.todayDeaths)} total= {printPlus(selectedCountryInfo.deaths)}/>
+        <Infobox isOrenge onClick={e=> setCasetype('cases')}  active={casetype==="cases"}title="Today's Cases" cases={printPlus(selectedCountryInfo.todayCases)} total= {printPlus(selectedCountryInfo.cases)}/>
+        <Infobox  onClick={e=> setCasetype('recovered')}active={casetype==="recovered"} title="Today's Recoverd" cases={printPlus(selectedCountryInfo.todayRecovered)} total= {printPlus(selectedCountryInfo.recovered)}/>
+        <Infobox isRed onClick={e=> setCasetype('deaths')} active={casetype==="deaths"}title="Today's Deaths" cases={printPlus(selectedCountryInfo.todayDeaths)} total= {printPlus(selectedCountryInfo.deaths)}/>
         
 
       </div>
